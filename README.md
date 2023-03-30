@@ -1,11 +1,13 @@
 <h1 align="center">
-	🖨️ 42 Portefolio Generator 🖨️
+	🖨️ 42 Portfolio Generator 🖨️
 </h1>
 
 <p align="center">
 	<b><i>"Tell me who you are and I'll tell you which projects you've completed" 📜.</i></b>
 
 </p>
+<div align="center">
+<img alt="42" src="https://i.imgur.com/FBTPTt0.png" width="300px"/>
 </div>
 
 
@@ -20,9 +22,9 @@ git clone https://github.com/joao-per/42-portfolio-generator.git
 ```
 
 ### Requirements
-Node.js v14 or higher (download here)
-npm (included with Node.js)
-An active 42 API account with valid Client ID and Client Secret
+Node.js v14 or higher [**(download here)**](https://nodejs.org/en)  
+Npm (included with Node.js)  
+An active 42 API account with valid Client ID and Client Secret  
 
 ### Instructions
 Change to the project directory:
