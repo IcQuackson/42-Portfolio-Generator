@@ -6,8 +6,6 @@
 	<b><i>"Tell me who you are and I'll tell you which projects you've completed" 📜.</i></b>
 
 </p>
-<div align="center">
-<img alt="Printf" src="https://github.com/joao-per/joao-per/blob/main/Badges/Printf.png" />
 </div>
 
 
