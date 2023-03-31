@@ -1,6 +1,6 @@
-const http = require("http");
 const readline = require("readline");
 const fs = require("fs");
+const https = require("https");
 
 const rl = readline.createInterface({
     input: process.stdin,
@@ -12,32 +12,75 @@ let clientSecret;
 let maxElements;
 
 const getToken = async () => {
-    try {
-        const response = await axios.post("https://api.intra.42.fr/oauth/token", {
-            grant_type: "client_credentials",
-            client_id: clientId,
-            client_secret: clientSecret
+    const postData = JSON.stringify({
+      grant_type: "client_credentials",
+      client_id: clientId,
+      client_secret: clientSecret
+    });
+  
+    const options = {
+      hostname: "api.intra.42.fr",
+      path: "/oauth/token",
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Content-Length": postData.length
+      }
+    };
+  
+    return new Promise((resolve, reject) => {
+    const req = https.request(options, res => {
+        let data = "";
+        res.on("data", chunk => {
+          data += chunk;
         });
+        res.on("end", () => {
+          resolve(JSON.parse(data).access_token);
+        });
+      });
+  
+      req.on("error", error => {
+        reject(error);
+      });
+  
+      req.write(postData);
+      req.end();
+    });
+  };
 
-        return response.data.access_token;
-    } catch (error) {
-        console.error("Sorry, couldn't resolve any client with those credentials");
-        process.exit();
-    }
-};
-const fetchData = (url, token, params) => {
+  const buildQueryString = (params) => {
+    return Object.entries(params)
+      .map(([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(value)}`)
+      .join('&');
+  };
+  
+  const fetchData = (url, token, params) => {
     return new Promise((resolve, reject) => {
       const options = {
         headers: { Authorization: `Bearer ${token}` },
-        params
+        searchParams: new URLSearchParams(params)
       };
-      const request = http.get(url, options, response => {
+  
+      const request = https.get(url, options, response => {
+        const contentType = response.headers['content-type'];
+  
+        if (!contentType || !contentType.includes('application/json')) {
+          console.error('Error: Received non-JSON response');
+          reject(new Error('Received non-JSON response'));
+          return;
+        }
+  
         let data = "";
         response.on("data", chunk => {
           data += chunk;
         });
         response.on("end", () => {
-          resolve(JSON.parse(data));
+          try {
+            resolve(JSON.parse(data));
+          } catch (error) {
+            console.error("Error parsing response body as JSON:", error);
+            resolve({});
+          }
         });
       });
       request.on("error", error => {
@@ -45,7 +88,10 @@ const fetchData = (url, token, params) => {
       });
     });
   };
-
+  
+  
+  
+  
 const main = async () => {
     rl.question("What is your UID? ", uid => {
         clientId = uid;
