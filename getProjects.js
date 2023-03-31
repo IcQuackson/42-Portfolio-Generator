@@ -2,6 +2,9 @@ const readline = require("readline");
 const fs = require("fs");
 const https = require("https");
 
+//UID = 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
+//SECRET = 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
+
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
