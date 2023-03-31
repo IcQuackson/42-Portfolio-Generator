@@ -1,4 +1,4 @@
-const axios = require("axios");
+const http = require("http");
 const readline = require("readline");
 const fs = require("fs");
 
@@ -25,19 +25,26 @@ const getToken = async () => {
         process.exit();
     }
 };
-
-const fetchData = async (url, token, params) => {
-    try {
-        const response = await axios.get(url, {
-            headers: { Authorization: `Bearer ${token}` },
-            params
+const fetchData = (url, token, params) => {
+    return new Promise((resolve, reject) => {
+      const options = {
+        headers: { Authorization: `Bearer ${token}` },
+        params
+      };
+      const request = http.get(url, options, response => {
+        let data = "";
+        response.on("data", chunk => {
+          data += chunk;
         });
-
-        return response.data;
-    } catch (error) {
-        console.error("Sorry, something went wrong with the API or params");
-    }
-};
+        response.on("end", () => {
+          resolve(JSON.parse(data));
+        });
+      });
+      request.on("error", error => {
+        reject(error);
+      });
+    });
+  };
 
 const main = async () => {
     rl.question("What is your UID? ", uid => {
