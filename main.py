@@ -1,16 +1,18 @@
+from oauthlib.oauth2 import BackendApplicationClient
+from requests_oauthlib import OAuth2Session
 import requests
 import os
 
-import oauth2
-
 UID = os.environ['42UID']
-SECRET = os.environ['42UID']
+SECRET = os.environ['42SECRET']
 
-# Create the client with your credentials
-client = oauth2.Client("u-s4t2ud-a3460dc27a5dc4b8d1fbba961bfab6be66dc7eb02886000ce33e2b4c7976a0f6", "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", site="https://api.intra.42.fr")
+# Create a client object with your credentials
+client = BackendApplicationClient(client_id=UID)
+oauth = OAuth2Session(client=client)
+oauth.fetch_token(token_url="https://api.intra.42.fr/oauth/token", client_id=UID, client_secret=SECRET)
 
 # Get an access token
-ACCESS_TOKEN = client.client_credentials.get_token()
+ACCESS_TOKEN = oauth.access_token
 
 # Function to retrieve data from the 42 API
 def get_student_data(username):
@@ -39,4 +41,5 @@ print(f"Email: {student_data['email']}")
 print(f"Phone: {student_data['phone']}")
 print(f"Completed projects:")
 for project in completed_projects:
+  if project['validated?'] == True and "Piscine" not in project['project']['name']:
     print(f"\t{project['project']['name']} - final mark: {project['final_mark']}")
