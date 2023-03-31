@@ -18,8 +18,11 @@ ACCESS_TOKEN = oauth.access_token
 def get_student_data(username):
     headers = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
     response = requests.get(f"https://api.intra.42.fr/v2/users/{username}", headers=headers)
-    student_data = response.json()
-    return student_data
+    if response.status_code == 200:
+        student_data = response.json()
+        return student_data
+    else:
+        return None
 
 # Function to retrieve completed projects of a student from the 42 API
 def get_completed_projects(username):
@@ -28,18 +31,25 @@ def get_completed_projects(username):
     projects_data = response.json()
     return projects_data
 
+def print_projects(student_data, completed_projects):
+  # Output student information and completed projects
+  print(f"Name: {student_data['displayname']}")
+  print(f"Email: {student_data['email']}")
+  print(f"Phone: {student_data['phone']}")
+  print(f"Completed projects:")
+  for project in completed_projects:
+    if project['validated?'] == True and "Piscine" not in project['project']['name']:
+      print(f"\t{project['project']['name']} - final mark: {project['final_mark']}")
+  
 # Get input username from user
-username = input("Enter student username: ")
-
-# Retrieve student data and completed projects using the 42 API
-student_data = get_student_data(username)
-completed_projects = get_completed_projects(username)
-
-# Output student information and completed projects
-print(f"Name: {student_data['displayname']}")
-print(f"Email: {student_data['email']}")
-print(f"Phone: {student_data['phone']}")
-print(f"Completed projects:")
-for project in completed_projects:
-  if project['validated?'] == True and "Piscine" not in project['project']['name']:
-    print(f"\t{project['project']['name']} - final mark: {project['final_mark']}")
+username = ""
+while username != "exit":
+  username = input("Enter student username: ")
+  # Retrieve student data and completed projects using the 42 API
+  student_data = get_student_data(username)
+  completed_projects = get_completed_projects(username)
+  if student_data is None:
+        print(f"Error: User {username} not found.\n")
+        continue
+  print_projects(student_data, completed_projects)
+  print()
