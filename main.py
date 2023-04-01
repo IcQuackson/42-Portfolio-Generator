@@ -35,6 +35,7 @@ def get_completed_projects(username):
     filtered_projects_data = [project for project in projects_data if project['validated?'] == True and "Piscine" not in project['project']['name']]
     return filtered_projects_data
 
+
 # Define function to generate HTML from data
 def generate_html(student_data, completed_projects):
     projects_html = ""
@@ -58,11 +59,18 @@ def print_projects(student_data, completed_projects):
   print(f"Name: {student_data['displayname']}")
   print(f"Email: {student_data['email']}")
   print(f"Phone: {student_data['phone']}")
-  print(small_image_url)
+  print(f"Small image URL: {student_data['image']['versions']['small']}")
   print(f"Completed projects:")
   for project in completed_projects:
     print(f"\t{project['project']['name']} - final mark: {project['final_mark']}")
-    #project_details = get_project_details(project['project']['id'])
+    project_details = get_project_details(project['project']['id'])
+    project_description = project_details.get('description', 'No description available')
+    print(f"\t\tDescription: {project_description}")
+    if 'skills' in project_details:
+      skills = ", ".join(skill['name'] for skill in project_details['skills'])
+    else:
+      skills = 'No skills available'
+    print(f"\t\tSkills: {skills}")
   
 # Get input username from user
 username = ""
@@ -79,5 +87,5 @@ while username != "exit":
   print_projects(student_data, completed_projects)
   html = generate_html(student_data, completed_projects)
   # Generate PDF from HTML using pdfkit
-  # pdfkit.from_string(portfolio.html_template, f"{username}_projects.pdf")
+  #pdfkit.from_string(portfolio.html_template, f"{username}_projects.pdf")
   print()
