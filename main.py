@@ -25,6 +25,17 @@ def get_student_data(username):
         return student_data
     else:
         return None
+    
+def get_user_skills(user_id):
+    headers = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
+    response = requests.get(f"https://api.intra.42.fr/v2/users/{user_id}/cursus_users", headers=headers)
+    cursus_users = response.json()
+    if cursus_users:
+        skills = cursus_users[0]['skills']
+        return skills
+    else:
+        return []
+
 
 # Function to retrieve completed projects of a student from the 42 API
 def get_completed_projects(username):
@@ -55,23 +66,41 @@ def get_project_details(project_id):
     return project_data
 
 def print_projects(student_data, completed_projects):
-  # Output student information and completed projects
-  print(f"Name: {student_data['displayname']}")
-  print(f"Email: {student_data['email']}")
-  print(f"Phone: {student_data['phone']}")
-  print(f"Small image URL: {student_data['image']['versions']['small']}")
-  print(f"Completed projects:")
-  for project in completed_projects:
-    print(f"\t{project['project']['name']} - final mark: {project['final_mark']}")
-    project_details = get_project_details(project['project']['id'])
-    print(f"\t\tProject Details: {project_details['project_sessions'][0]['description']}")  # Add this line to print the project details
-    # project_description = project_details['project'].get('description', 'No description available')  # Update this line
-    # print(f"\t\tDescription: {project_description}")
-    if 'skills' in project_details:
-      skills = ", ".join(skill['name'] for skill in project_details['project_sessions'][0]['skills'])
-    else:
-      skills = 'No skills available'
-    print(f"\t\tSkills: {skills}")
+    # Output student information and completed projects
+    print(f"Name: {student_data['displayname']}")
+    print(f"Email: {student_data['email']}")
+    print(f"Phone: {student_data['phone']}")
+    print(f"Small image URL: {student_data['image']['versions']['small']}")
+    print(f"Completed projects:")
+    for project in completed_projects:
+        print(f"\t{project['project']['name']} - final mark: {project['final_mark']}")
+        project_details = get_project_details(project['project']['id'])
+        project_description = project_details['project_sessions'][0]['description']
+        print(f"\t\tDescription: {project_description}")
+        objectives = project_details['project_sessions'][0]['objectives']
+        objectives_str = ', '.join(objectives)  # Convert the list of objectives to a string
+        print(f"\t\tSkills: {objectives_str}")
+
+    # Print user skills
+    user_skills = get_user_skills(student_data['id'])
+    for skill in user_skills:
+        level = skill['level']
+        new_value = 0
+        if 0 <= level < 2:
+            new_value = 1
+        elif 2 <= level < 4:
+            new_value = 2
+        elif 4 <= level < 6:
+            new_value = 3
+        elif 6 <= level < 8:
+            new_value = 4
+        elif 8 <= level <= 10:
+            new_value = 5
+        print(f"\nSkill: {skill['name']} - Level: {level} - New Value: {new_value}")
+
+
+
+
   
 # Get input username from user
 username = ""
