@@ -45,6 +45,10 @@ html_template = """
             <td>{{name}}</td>
         </tr>
         <tr>
+            <th>Photo</th>
+            <td><img src="{{small_image_url}}"></td>
+        </tr>
+        <tr>
             <th>Email</th>
             <td>{{email}}</td>
         </tr>

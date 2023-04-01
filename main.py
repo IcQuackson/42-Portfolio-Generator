@@ -42,7 +42,7 @@ def generate_html(student_data, completed_projects):
       project_name = project['project']['name']
       final_mark = project['final_mark']
       projects_html += f"<tr><td class='project-name'>{project_name}</td><td class='final-mark'>{final_mark}</td></tr>"
-    html = portfolio.html_template.format(name=student_data['displayname'], email=student_data['email'], phone=student_data['phone'], projects=projects_html)
+    html = portfolio.html_template.format(name=student_data['displayname'], email=student_data['email'], phone=student_data['phone'], small_image_url = student_data['image']['versions']['small'], projects=projects_html)
     return html
 
 def get_project_details(project_id):
@@ -58,6 +58,7 @@ def print_projects(student_data, completed_projects):
   print(f"Name: {student_data['displayname']}")
   print(f"Email: {student_data['email']}")
   print(f"Phone: {student_data['phone']}")
+  print(small_image_url)
   print(f"Completed projects:")
   for project in completed_projects:
     print(f"\t{project['project']['name']} - final mark: {project['final_mark']}")
@@ -73,8 +74,10 @@ while username != "exit":
         print(f"Error: User {username} not found.\n")
         continue
   completed_projects = get_completed_projects(username)
+  small_image_url = student_data['image']['versions']['small']
+  print(small_image_url)
   print_projects(student_data, completed_projects)
   html = generate_html(student_data, completed_projects)
   # Generate PDF from HTML using pdfkit
-  pdfkit.from_string(portfolio.html_template, f"{username}_projects.pdf")
+  # pdfkit.from_string(portfolio.html_template, f"{username}_projects.pdf")
   print()
