@@ -1,5 +1,6 @@
 from oauthlib.oauth2 import BackendApplicationClient
 from requests_oauthlib import OAuth2Session
+from jinja2 import Environment, FileSystemLoader
 import requests
 import pdfkit
 import portfolio
@@ -7,6 +8,9 @@ import json
 
 UID = "u-s4t2ud-a3460dc27a5dc4b8d1fbba961bfab6be66dc7eb02886000ce33e2b4c7976a0f6"
 SECRET = "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"
+
+env = Environment(loader=FileSystemLoader('.'))
+#template = env.get_template('teste.html')
 
 # Create a client object with your credentials
 client = BackendApplicationClient(client_id=UID)
@@ -48,13 +52,30 @@ def get_completed_projects(username):
 
 
 # Define function to generate HTML from data
-def generate_html(student_data, completed_projects):
-    projects_html = ""
+
+def generate_html(student_data, completed_projects, output_file):
+    env = Environment(loader=FileSystemLoader('.'))
+    template = env.get_template('teste.html')
+
+    projects_data = []
     for project in completed_projects:
-      project_name = project['project']['name']
-      final_mark = project['final_mark']
-      projects_html += f"<tr><td class='project-name'>{project_name}</td><td class='final-mark'>{final_mark}</td></tr>"
-    html = portfolio.html_template.format(name=student_data['displayname'], email=student_data['email'], phone=student_data['phone'], small_image_url = student_data['image']['versions']['small'], projects=projects_html)
+        project_data = {
+            'name': project['project']['name'],
+            'final_mark': project['final_mark'],
+        }
+        projects_data.append(project_data)
+
+    html = template.render(
+        student_name=student_data['displayname'],
+        email=student_data['email'],
+        phone=student_data['phone'],
+        small_image_url=student_data['image']['versions']['small'],
+        completed_projects=projects_data
+    )
+
+    with open(output_file, 'w') as f:
+        f.write(html)
+
     return html
 
 def get_project_details(project_id):
@@ -96,7 +117,9 @@ def print_projects(student_data, completed_projects):
             new_value = 4
         elif 8 <= level <= 10:
             new_value = 5
+        skill['new_value'] = new_value
         print(f"\nSkill: {skill['name']} - Level: {level} - New Value: {new_value}")
+    return user_skills
 
 
 
@@ -115,7 +138,9 @@ while username != "exit":
   small_image_url = student_data['image']['versions']['small']
   print(small_image_url)
   print_projects(student_data, completed_projects)
-  html = generate_html(student_data, completed_projects)
+  output_file = f"{username}_portfolio.html"
+  html = generate_html(student_data, completed_projects, output_file)
+
   # Generate PDF from HTML using pdfkit
   #pdfkit.from_string(portfolio.html_template, f"{username}_projects.pdf")
   print()

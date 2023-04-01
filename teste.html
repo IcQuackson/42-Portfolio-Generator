@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ student_name }}'s Portfolio</title>
+</head>
+<body>
+  <h1>{{ student_name }}'s Portfolio</h1>
+  <p>Email: {{ email }}</p>
+  <p>Phone: {{ phone }}</p>
+  <p>value: {{ new_value }}</p>
+  <img src="{{ small_image_url }}" alt="Profile picture">
+  <table>
+    <thead>
+      <tr>
+        <th>Project Name</th>
+        <th>Final Mark</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for project in completed_projects %}
+        <tr>
+          <td>{{ project.name }}</td>
+          <td>{{ project.final_mark }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>
