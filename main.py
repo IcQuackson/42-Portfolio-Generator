@@ -64,10 +64,11 @@ def print_projects(student_data, completed_projects):
   for project in completed_projects:
     print(f"\t{project['project']['name']} - final mark: {project['final_mark']}")
     project_details = get_project_details(project['project']['id'])
-    project_description = project_details.get('description', 'No description available')
-    print(f"\t\tDescription: {project_description}")
+    print(f"\t\tProject Details: {project_details['project_sessions'][0]['description']}")  # Add this line to print the project details
+    # project_description = project_details['project'].get('description', 'No description available')  # Update this line
+    # print(f"\t\tDescription: {project_description}")
     if 'skills' in project_details:
-      skills = ", ".join(skill['name'] for skill in project_details['skills'])
+      skills = ", ".join(skill['name'] for skill in project_details['project_sessions'][0]['skills'])
     else:
       skills = 'No skills available'
     print(f"\t\tSkills: {skills}")
