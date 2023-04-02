@@ -64,8 +64,14 @@ def generate_html(student_data, completed_projects, html_file, url_for):
 	projects_data = []
 	for project in completed_projects:
 		project_details = get_project_details(project['project']['id'])
-		project_description = project_details['project_sessions'][0]['description']
-		objectives = project_details['project_sessions'][0]['objectives']
+		try:
+			project_description = project_details['project_sessions'][0]['description']
+		except:
+			project_description = ""
+		try:
+			objectives = project_details['project_sessions'][0]['objectives']
+		except:
+			project_description = ""
 		project_data = {
 			'name': project['project']['name'],
 			'final_mark': project['final_mark'],
