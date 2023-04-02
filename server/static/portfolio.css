@@ -264,8 +264,7 @@ input:focus::placeholder {
 }
 
 .skill_list {
-    margin-left: 50px;
-    border-left: 1px solid white;
+    margin-top: -20px;
 }
 
 

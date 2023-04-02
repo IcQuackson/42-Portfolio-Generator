@@ -109,3 +109,7 @@ input::-webkit-search-cancel-button {
 input:focus::placeholder {
     color: transparent;
 }
+
+footer a {
+    color: white;
+  }

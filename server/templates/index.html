@@ -14,12 +14,15 @@
         <div class="call_action">
             <h1 for="searchbar">Grab Your <br><span>42 Portfolio!</span></h1>
             <form method="POST" action="/generate_portfolio">
-                <input id="searchbar" name="username" type="search" placeholder="[ intra username ]" required>
+                <input id="searchbar" name="username" type="search" placeholder=" Enter intra username" required>
             </form>
+            {% if error %}
+            <p style="color: red;">{{ error }}</p>
+            {% endif %}
         </div>
     </main>
     <footer>
-        <p>School Website</p>
+        <p><a href="https://www.42lisboa.com/">42 School</a></p>
     </footer>
 </body>
 </html>

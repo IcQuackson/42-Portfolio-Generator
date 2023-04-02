@@ -53,8 +53,6 @@ def get_project_details(project_id):
 	response = requests.get(f"https://api.intra.42.fr/v2/projects/{project_id}", headers=headers)
 	time.sleep(0.5)
 	project_data = response.json()
-	with open("output.txt", "w") as f:
-		f.write(json.dumps(project_data, indent=4))
 	return project_data
 
 
@@ -110,7 +108,7 @@ def generate_portfolio():
 
 	student_data = get_student_data(username)
 	if student_data is None:
-		return f"Error: User {username} not found.\n"
+		return render_template('index.html', error=f"User {username} not found.")
 
 	completed_projects = get_completed_projects(username)
 	output_file = f"{username}_portfolio.html"
