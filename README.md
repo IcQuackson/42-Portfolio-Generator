@@ -22,21 +22,26 @@ git clone https://github.com/joao-per/42-portfolio-generator.git
 ```
 
 ### Requirements
-Node.js v14 or higher [**(download here)**](https://nodejs.org/en)  
-Npm (included with Node.js)  
-An active 42 API account with valid Client ID and Client Secret  
+Having 42 intra user account.
 
 ### Instructions
-Change to the project directory:
+Ubuntu:
+
+On the terminal change to the project directory:
 ````shell
+Run the following terminal commands:
+If you do not have python install on your PC:
 sudo apt install python3
 sudo apt install python3-pip
+
+Then run the following:
+
 pip install -r requirements.txt
+cd server
+python3 main.py
 
-Follow the on-screen prompts to enter your 42 API Client ID, Client Secret, and other necessary information.
+Controll + click on the url that was promted on the terminal. 
+Follow the on-screen prompts to enter your 42 Intra username.
 
-Choose from the available options to fetch cursus or project information.
-
-The script will display the fetched data on the console and, if necessary, generate JSON files containing additional information.
 
 Explore your project portfolio at your leisure!
