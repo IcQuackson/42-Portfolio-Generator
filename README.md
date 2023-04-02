@@ -29,6 +29,8 @@ An active 42 API account with valid Client ID and Client Secret
 ### Instructions
 Change to the project directory:
 ````shell
+sudo apt install python3
+sudo apt install python3-pip
 pip install -r requirements.txt
 
 Follow the on-screen prompts to enter your 42 API Client ID, Client Secret, and other necessary information.
