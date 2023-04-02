@@ -75,7 +75,8 @@ header {
     display: flex;
     padding: 10px 20px;
     justify-content: flex-start;
-    border: 1px solid white;
+    border-inline: 1px solid white;
+    border-top: 1px solid white;
 }
 
 .pfp {
@@ -101,7 +102,7 @@ header {
 
 .contact {
     grid-area: contact;
-    border: 1px solid white;
+    border-inline: 1px solid white;
     justify-content: flex-start;
 }
 
@@ -138,7 +139,6 @@ header {
 
 footer {
     grid-area: footer;
-    border-top: 1px solid white;
 }
 
 input {
