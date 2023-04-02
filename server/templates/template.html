@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>42's Skill Portfolio</title>
+    <link rel="icon" type="image/png" href="../static/images/logo.png">
+	<link rel="stylesheet" href="{{ url_for('static', filename='portfolio.css') }}">
+    </head>
+    <body class="main_grid">
+    <header>
+        <img src="https://www.42lisboa.com/wp-content/themes/42lisboa/images/logo_footer_en.svg" alt="42_logo">
+    </header>
+    <div class="identification flex">
+        <div class="pfp">
+            <img src="{{ small_image_url }}" alt="Profile Picture" id="pfp"> <!-- profile picture -->
+        </div>
+        <div class="name flex">
+            <h1>{{ student_name['displayname'] }}<br><span>{{ student_name['login'] }}</span></h1>
+        </div>
+    </div>
+    <div class="contact flex">
+        <div class="contact_card">{{ email }}</div> <!-- e-mail -->
+    </div>
+
+    <div class="projects flex">
+    <!-- -------------------------------------------------------------PROJECT BLOCKS -->
+        <div>
+			{% for project in completed_projects %}
+            <div class="flex" style="justify-content: flex-start;">
+                <div class="project_card flex"> <!-- for each finished project -->
+                    <p>{{ project.name }}</p> <!-- project name-->
+                </div>
+				{% if project.final_mark == 125 %}
+                <div class="bonus_card flex"> <!-- if bonus was done -->
+                    <img class="bonus" src="../static/images/star.svg" alt="Bonus"> 
+                </div>
+				{% endif %}
+            </div>
+            <div class="prj_description"> <!-- project description -->
+                <p>
+                    {{ project.description }}
+                </p>
+            </div>
+            <div class="applicative flex"> <!-- applicatives -->
+				{% for objective in project.objectives %}
+                <div class="applicative_card">{{ objective }}</div>
+				{% endfor %}
+            </div>
+			{% endfor %}
+        </div>
+        <!-- -------------------------------------------------------------PROJECT BLOCKS (eliminate the rest) -->
+
+    </div>
+    <div class="skills flex">
+        <h2>Skills</h2>
+        <div class="skill_list">
+			{% for skill in skills %}
+            <div class="skill_card flex">
+                <p>{{ skill['name'] }}</p>
+                <div class="skill_points flex">
+					{% for i in range(skill['new_value']) %}
+                    <div class="skill_point"></div>
+					{% endfor %}
+                </div>
+            </div>
+			{% endfor %} 
+    <!-- 
+            <div class="skill_card flex">
+                <p>Imperative Programming</p>
+                <div class="skill_points flex">
+                    <div class="skill_point"></div>
+                    <div class="skill_point"></div>
+                    <div class="skill_point"></div>
+                </div>
+            </div>  
+
+            <div class="skill_card flex">
+                <p>Graphics</p>
+                <div class="skill_points flex">
+                    <div class="skill_point"></div>
+                    <div class="skill_point"></div>
+                </div>
+            </div>  
+
+            <div class="skill_card flex">
+                <p>Unix</p>
+                <div class="skill_points flex">
+                    <div class="skill_point"></div>
+                    <div class="skill_point"></div>
+                    <div class="skill_point"></div>
+                </div>
+            </div>  
+ -->
+
+        </div>
+                                                        
+
+    </div>
+    <footer>
+        <p>42 School</p>
+    </footer>
+    </body>
+</html>

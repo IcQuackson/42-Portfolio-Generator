@@ -43,7 +43,7 @@ def get_student_data(username):
 def get_completed_projects(username):
 	headers = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
 	response = requests.get(f"https://api.intra.42.fr/v2/users/{username}/projects_users?filter[status]=finished", headers=headers)
-	time.sleep(1)
+	time.sleep(0.5)
 	projects_data = response.json()
 	filtered_projects_data = [project for project in projects_data if project['validated?'] == True and "Piscine" not in project['project']['name'] and "Exam" not in project['project']['name']]
 	return filtered_projects_data
@@ -51,7 +51,7 @@ def get_completed_projects(username):
 def get_project_details(project_id):
 	headers = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
 	response = requests.get(f"https://api.intra.42.fr/v2/projects/{project_id}", headers=headers)
-	time.sleep(1)
+	time.sleep(0.5)
 	project_data = response.json()
 	with open("output.txt", "w") as f:
 		f.write(json.dumps(project_data, indent=4))
@@ -68,13 +68,11 @@ def generate_html(student_data, completed_projects, html_file, url_for):
 		project_details = get_project_details(project['project']['id'])
 		project_description = project_details['project_sessions'][0]['description']
 		objectives = project_details['project_sessions'][0]['objectives']
-		objectives_str = ', '.join(objectives)
-		print(objectives_str)
 		project_data = {
 			'name': project['project']['name'],
 			'final_mark': project['final_mark'],
 			'description': project_description,
-			'objectives': objectives_str
+			'objectives': objectives
 		}
 		projects_data.append(project_data)
 
@@ -85,10 +83,10 @@ def generate_html(student_data, completed_projects, html_file, url_for):
 		skill['new_value'] = new_value
 
 	html = template.render(
-		student_name=student_data['displayname'],
+		student_name=student_data,
 		email=student_data['email'],
 		phone=student_data['phone'],
-		small_image_url=student_data['image']['versions']['small'],
+		small_image_url=student_data['image']['versions']['medium'],
 		completed_projects=projects_data,
 		skills=user_skills,
 		url_for=url_for
