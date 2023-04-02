@@ -2,10 +2,9 @@ from oauthlib.oauth2 import BackendApplicationClient
 from requests_oauthlib import OAuth2Session
 from jinja2 import Environment, FileSystemLoader
 import requests
-import pdfkit
-import portfolio
 import json
 import math
+
 
 UID = "u-s4t2ud-a3460dc27a5dc4b8d1fbba961bfab6be66dc7eb02886000ce33e2b4c7976a0f6"
 SECRET = "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"

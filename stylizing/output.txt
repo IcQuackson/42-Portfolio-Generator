@@ -1,0 +1,4004 @@
+{
+    "id": 1314,
+    "name": "Libft",
+    "slug": "42cursus-libft",
+    "difficulty": 462,
+    "parent": null,
+    "children": [],
+    "attachments": [],
+    "created_at": "2019-07-29T08:49:02.235Z",
+    "updated_at": "2023-03-26T10:32:20.982Z",
+    "exam": false,
+    "git_id": 1,
+    "repository": "23",
+    "cursus": [
+        {
+            "id": 21,
+            "created_at": "2019-07-29T08:45:17.896Z",
+            "name": "42cursus",
+            "slug": "42cursus",
+            "kind": "main"
+        },
+        {
+            "id": 53,
+            "created_at": "2021-10-20T07:14:44.406Z",
+            "name": "42.zip",
+            "slug": "42-zip",
+            "kind": "main"
+        }
+    ],
+    "campus": [
+        {
+            "id": 64,
+            "name": "Singapore",
+            "time_zone": "Asia/Singapore",
+            "language": {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2023-04-01T13:27:52.655Z"
+            },
+            "users_count": 9,
+            "vogsphere_id": 56,
+            "country": "Singapore",
+            "address": "8 Somapah Rd",
+            "zip": "487372",
+            "city": "Singapore",
+            "website": "https://www.42.fr/",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42singapore.sg",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 61,
+            "name": "Belo Horizonte",
+            "time_zone": "America/Sao_Paulo",
+            "language": {
+                "id": 17,
+                "name": "Brazilian Portuguese",
+                "identifier": "pt_br",
+                "created_at": "2020-12-10T14:15:00.994Z",
+                "updated_at": "2023-03-27T21:42:16.351Z"
+            },
+            "users_count": 10,
+            "vogsphere_id": null,
+            "country": "Brazil",
+            "address": "- No address yet -",
+            "zip": "30000",
+            "city": "Belo Horizonte",
+            "website": "https://42bh.org.br",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42bh.org.br",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 62,
+            "name": "Le Havre",
+            "time_zone": "Europe/Paris",
+            "language": {
+                "id": 1,
+                "name": "Fran\u00e7ais",
+                "identifier": "fr",
+                "created_at": "2014-11-02T16:43:38.466Z",
+                "updated_at": "2023-03-24T13:53:48.704Z"
+            },
+            "users_count": 171,
+            "vogsphere_id": 54,
+            "country": "France",
+            "address": "Cit\u00e9 Num\u00e9rique - 20 Quai Frissard - Le Havre - 76600 - France",
+            "zip": "76600",
+            "city": "Le Havre",
+            "website": "https://42lehavre.fr",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42lehavre.fr",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 59,
+            "name": "Luxembourg",
+            "time_zone": "Europe/Paris",
+            "language": {
+                "id": 1,
+                "name": "Fran\u00e7ais",
+                "identifier": "fr",
+                "created_at": "2014-11-02T16:43:38.466Z",
+                "updated_at": "2023-03-24T14:00:35.740Z"
+            },
+            "users_count": 10,
+            "vogsphere_id": null,
+            "country": "Luxembourg",
+            "address": "- no address yet - ",
+            "zip": "1000",
+            "city": "Luxembourg",
+            "website": "https://42luxembourg.lu",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42luxembourg.lu",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 60,
+            "name": "Perpignan",
+            "time_zone": "Europe/Paris",
+            "language": {
+                "id": 1,
+                "name": "Fran\u00e7ais",
+                "identifier": "fr",
+                "created_at": "2014-11-02T16:43:38.466Z",
+                "updated_at": "2023-03-22T16:45:38.621Z"
+            },
+            "users_count": 318,
+            "vogsphere_id": 53,
+            "country": "France",
+            "address": "5, Rue Pierre Curie - Les Dames de France",
+            "zip": "66000",
+            "city": "Perpignan",
+            "website": "https://42perpignan.fr",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42perpignan.fr",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 56,
+            "name": "Prague",
+            "time_zone": "Europe/Prague",
+            "language": {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2023-03-28T05:37:00.426Z"
+            },
+            "users_count": 254,
+            "vogsphere_id": 52,
+            "country": "Czech Republic",
+            "address": "- No address yet -",
+            "zip": "100 00",
+            "city": "Praha",
+            "website": "https://42prague.com",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42prague.com",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 57,
+            "name": "London",
+            "time_zone": "Europe/London",
+            "language": {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2023-03-13T15:36:23.448Z"
+            },
+            "users_count": 84,
+            "vogsphere_id": 51,
+            "country": "United Kingdom",
+            "address": "30 Millbank - 5th & 6th Floors",
+            "zip": "SW1P 4DU",
+            "city": "London",
+            "website": "https://42london.com",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42london.com",
+            "default_hidden_phone": true
+        },
+        {
+            "id": 13,
+            "name": "Helsinki",
+            "time_zone": "Europe/Helsinki",
+            "language": {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2023-03-28T05:37:00.426Z"
+            },
+            "users_count": 1171,
+            "vogsphere_id": 13,
+            "country": "Finland",
+            "address": "Haapaniemenkatu 5",
+            "zip": "00530",
+            "city": "Helsinki",
+            "website": "https://www.hive.fi/",
+            "facebook": "https://www.facebook.com/HiveHelsinki",
+            "twitter": "https://twitter.com/hivehelsinki",
+            "active": true,
+            "public": true,
+            "email_extension": "hive.fi",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 53,
+            "name": "Vienna",
+            "time_zone": "Europe/Vienna",
+            "language": {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2023-03-31T13:14:21.161Z"
+            },
+            "users_count": 302,
+            "vogsphere_id": 49,
+            "country": "Austria",
+            "address": "Muthgasse 26/1",
+            "zip": "1190",
+            "city": "Vienna",
+            "website": "https://www.42vienna.com",
+            "facebook": "https://www.facebook.com/42vienna",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42vienna.com",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 58,
+            "name": "Porto",
+            "time_zone": "Europe/Lisbon",
+            "language": {
+                "id": 9,
+                "name": "Portuguese",
+                "identifier": "pt",
+                "created_at": "2019-01-29T15:17:48.227Z",
+                "updated_at": "2023-03-27T23:22:54.587Z"
+            },
+            "users_count": 833,
+            "vogsphere_id": 50,
+            "country": "Portugal",
+            "address": "Av. dos Aliados n\u2070 322/324, 3\u2070 Piso",
+            "zip": "4000-407",
+            "city": "Porto",
+            "website": "https://42porto.com",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42porto.com",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 51,
+            "name": "Berlin",
+            "time_zone": "Europe/Berlin",
+            "language": {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2023-03-21T11:30:03.656Z"
+            },
+            "users_count": 738,
+            "vogsphere_id": 48,
+            "country": "Germany",
+            "address": "Harzer Strasse 39",
+            "zip": "12059",
+            "city": "Berlin",
+            "website": "http://42berlin.de/",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42berlin.de",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 31,
+            "name": "Angouleme",
+            "time_zone": "Europe/Paris",
+            "language": {
+                "id": 1,
+                "name": "Fran\u00e7ais",
+                "identifier": "fr",
+                "created_at": "2014-11-02T16:43:38.466Z",
+                "updated_at": "2023-03-15T09:32:18.913Z"
+            },
+            "users_count": 380,
+            "vogsphere_id": 41,
+            "country": "France",
+            "address": "49-51 Boulevard Besson-Ney",
+            "zip": "16000",
+            "city": "Angoul\u00eame",
+            "website": "https://www.42angouleme.fr/",
+            "facebook": "https://facebook.com/ecole42angouleme/",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42angouleme.fr",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 37,
+            "name": "Malaga",
+            "time_zone": "Europe/Madrid",
+            "language": {
+                "id": 11,
+                "name": "Spanish",
+                "identifier": "es",
+                "created_at": "2019-08-09T15:14:32.544Z",
+                "updated_at": "2023-03-30T14:08:24.462Z"
+            },
+            "users_count": 2143,
+            "vogsphere_id": 45,
+            "country": "Spain",
+            "address": "malaga street",
+            "zip": "29000",
+            "city": "Malaga",
+            "website": "http://www.42malaga.com",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42malaga.com",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 54,
+            "name": "42-test",
+            "time_zone": "Europe/Paris",
+            "language": {
+                "id": 1,
+                "name": "Fran\u00e7ais",
+                "identifier": "fr",
+                "created_at": "2014-11-02T16:43:38.466Z",
+                "updated_at": "2023-03-28T11:31:47.544Z"
+            },
+            "users_count": 35,
+            "vogsphere_id": 55,
+            "country": "France",
+            "address": "96 Bd Bessi\u00e8res",
+            "zip": "75017",
+            "city": "Paris",
+            "website": "http://42campus.org",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": false,
+            "email_extension": "42campus.org",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 55,
+            "name": "T\u00e9touan",
+            "time_zone": "Africa/Casablanca",
+            "language": {
+                "id": 1,
+                "name": "Fran\u00e7ais",
+                "identifier": "fr",
+                "created_at": "2014-11-02T16:43:38.466Z",
+                "updated_at": "2023-03-24T19:56:43.764Z"
+            },
+            "users_count": 334,
+            "vogsphere_id": 44,
+            "country": "Morocco",
+            "address": "Parc T\u00e9touan Shore, CP93150 , Martil, T\u00e9touan",
+            "zip": "93000",
+            "city": "T\u00e9touan",
+            "website": "https://1337.ma",
+            "facebook": "",
+            "twitter": "https://twitter.com/1337FIL",
+            "active": true,
+            "public": true,
+            "email_extension": "1337.ma",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 52,
+            "name": "Florence",
+            "time_zone": "Europe/Rome",
+            "language": {
+                "id": 16,
+                "name": "Italian",
+                "identifier": "it",
+                "created_at": "2020-03-12T13:30:39.859Z",
+                "updated_at": "2023-03-30T04:29:05.946Z"
+            },
+            "users_count": 473,
+            "vogsphere_id": 46,
+            "country": "Italy",
+            "address": "Via del Tiratoio, 1",
+            "zip": "50124",
+            "city": "Firenze",
+            "website": "https://www.42firenze.it",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42firenze.it",
+            "default_hidden_phone": true
+        },
+        {
+            "id": 46,
+            "name": "Barcelona",
+            "time_zone": "Europe/Madrid",
+            "language": {
+                "id": 11,
+                "name": "Spanish",
+                "identifier": "es",
+                "created_at": "2019-08-09T15:14:32.544Z",
+                "updated_at": "2023-03-28T03:15:46.126Z"
+            },
+            "users_count": 1909,
+            "vogsphere_id": 38,
+            "country": "Spain",
+            "address": "Parc Tecnol\u00f2gic de Barcelona Activa, Carrer Albert Einstein",
+            "zip": "08042",
+            "city": "Barcelona",
+            "website": "https://www.42barcelona.com",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42barcelona.com",
+            "default_hidden_phone": true
+        },
+        {
+            "id": 49,
+            "name": "Istanbul",
+            "time_zone": "Europe/Istanbul",
+            "language": {
+                "id": 18,
+                "name": "Turkish",
+                "identifier": "tr",
+                "created_at": "2021-08-20T10:50:01.782Z",
+                "updated_at": "2023-03-27T23:23:12.459Z"
+            },
+            "users_count": 2688,
+            "vogsphere_id": 36,
+            "country": "Turkey",
+            "address": "Ayaza\u011fa Mah. Azerbaycan Cad. Vadistanbul \u0130\u015f Bloklar\u0131 2B Blok Kat 3 Sar\u0131yer",
+            "zip": "34000",
+            "city": "Istanbul",
+            "website": "http://www.42istanbul.com.tr",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42istanbul.com.tr",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 50,
+            "name": "Kocaeli",
+            "time_zone": "Europe/Istanbul",
+            "language": {
+                "id": 18,
+                "name": "Turkish",
+                "identifier": "tr",
+                "created_at": "2021-08-20T10:50:01.782Z",
+                "updated_at": "2023-03-30T14:08:27.486Z"
+            },
+            "users_count": 1669,
+            "vogsphere_id": 37,
+            "country": "Turkey",
+            "address": "Muallimk\u00f6y Mahallesi, Deniz Cd. No:143-5, 41400 Gebze/Kocaeli",
+            "zip": "41000",
+            "city": "Kocaeli",
+            "website": "http://www.42kocaeli.com.tr",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42kocaeli.com.tr",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 48,
+            "name": "Mulhouse",
+            "time_zone": "Europe/Paris",
+            "language": {
+                "id": 1,
+                "name": "Fran\u00e7ais",
+                "identifier": "fr",
+                "created_at": "2014-11-02T16:43:38.466Z",
+                "updated_at": "2023-03-24T14:00:35.740Z"
+            },
+            "users_count": 428,
+            "vogsphere_id": 39,
+            "country": "France",
+            "address": "30 Rue Fran\u00e7ois Spoerry",
+            "zip": "68100",
+            "city": "Mulhouse",
+            "website": "https://42mulhouse.fr",
+            "facebook": "https://www.facebook.com/42Mulhouse",
+            "twitter": "https://twitter.com/42MulhouseGE",
+            "active": true,
+            "public": true,
+            "email_extension": "42mulhouse.fr",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 47,
+            "name": "Lausanne",
+            "time_zone": "Europe/Zurich",
+            "language": {
+                "id": 1,
+                "name": "Fran\u00e7ais",
+                "identifier": "fr",
+                "created_at": "2014-11-02T16:43:38.466Z",
+                "updated_at": "2023-03-10T14:11:46.870Z"
+            },
+            "users_count": 797,
+            "vogsphere_id": 35,
+            "country": "Switzerland",
+            "address": "64 Rue de Lausanne",
+            "zip": "1020",
+            "city": "Renens",
+            "website": "https://42lausanne.ch/",
+            "facebook": "https://www.facebook.com/42Lausanne",
+            "twitter": "https://twitter.com/42lausanne",
+            "active": true,
+            "public": true,
+            "email_extension": "42lausanne.ch",
+            "default_hidden_phone": true
+        },
+        {
+            "id": 34,
+            "name": "Kuala Lumpur",
+            "time_zone": "Asia/Kuala_Lumpur",
+            "language": {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2023-03-22T17:04:07.237Z"
+            },
+            "users_count": 937,
+            "vogsphere_id": 26,
+            "country": "Malaysia",
+            "address": "Sunway FutureX",
+            "zip": "47500",
+            "city": "Kuala Lumpur",
+            "website": "42kl.edu.my",
+            "facebook": "https://www.facebook.com/42kualalumpur/",
+            "twitter": "https://twitter.com/42kualalumpur",
+            "active": true,
+            "public": true,
+            "email_extension": "42kl.edu.my",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 40,
+            "name": "Urduliz",
+            "time_zone": "Europe/Madrid",
+            "language": {
+                "id": 11,
+                "name": "Spanish",
+                "identifier": "es",
+                "created_at": "2019-08-09T15:14:32.544Z",
+                "updated_at": "2023-03-31T17:22:58.209Z"
+            },
+            "users_count": 1028,
+            "vogsphere_id": 32,
+            "country": "Spain",
+            "address": "Aita Gotzon Kalea 37",
+            "zip": "48610",
+            "city": "Urduliz",
+            "website": "https://42urduliz.com/",
+            "facebook": "",
+            "twitter": "https://twitter.com/42UrdulizFTef",
+            "active": true,
+            "public": true,
+            "email_extension": "42urduliz.com",
+            "default_hidden_phone": true
+        },
+        {
+            "id": 33,
+            "name": "Bangkok",
+            "time_zone": "Asia/Bangkok",
+            "language": {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2023-04-01T13:27:52.655Z"
+            },
+            "users_count": 2129,
+            "vogsphere_id": 31,
+            "country": "Thailand",
+            "address": "1 Thanon Chalong Krung, Lat Krabang",
+            "zip": "10520",
+            "city": "Bangkok",
+            "website": "https://www.42bangkok.com/",
+            "facebook": "https://www.facebook.com/42Bangkok/",
+            "twitter": "https://twitter.com/42bangkok",
+            "active": true,
+            "public": true,
+            "email_extension": "42bangkok.com",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 44,
+            "name": "Wolfsburg",
+            "time_zone": "Europe/Berlin",
+            "language": {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2023-03-30T17:06:03.294Z"
+            },
+            "users_count": 2653,
+            "vogsphere_id": 29,
+            "country": "Germany",
+            "address": "Porschestra\u00dfe 2c",
+            "zip": "38440",
+            "city": "Wolfsburg",
+            "website": "http://42wolfsburg.de/",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42wolfsburg.de",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 36,
+            "name": "Adelaide",
+            "time_zone": "Australia/Adelaide",
+            "language": {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2023-03-28T03:15:38.692Z"
+            },
+            "users_count": 895,
+            "vogsphere_id": 33,
+            "country": "Australia",
+            "address": "Level 2 and 3 - 24 Pitt St",
+            "zip": "5000",
+            "city": "Adelaide",
+            "website": "http://www.42adel.org.au",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42adel.org.au",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 25,
+            "name": "Quebec",
+            "time_zone": "America/New_York",
+            "language": {
+                "id": 1,
+                "name": "Fran\u00e7ais",
+                "identifier": "fr",
+                "created_at": "2014-11-02T16:43:38.466Z",
+                "updated_at": "2023-03-17T22:57:23.909Z"
+            },
+            "users_count": 638,
+            "vogsphere_id": 27,
+            "country": "Canada",
+            "address": "330, St-Vallier Est, bureau 300",
+            "zip": "G1K 9C5",
+            "city": "Qu\u00e9bec",
+            "website": "42quebec.com",
+            "facebook": "https://www.facebook.com/42quebec/",
+            "twitter": "https://twitter.com/42_quebec",
+            "active": true,
+            "public": true,
+            "email_extension": "42quebec.com",
+            "default_hidden_phone": true
+        },
+        {
+            "id": 15,
+            "name": "Cape-Town",
+            "time_zone": "Africa/Johannesburg",
+            "language": {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2023-03-04T08:01:23.674Z"
+            },
+            "users_count": 845,
+            "vogsphere_id": 12,
+            "country": "South Africa",
+            "address": "Portswood, Workshop17, Dock Rd, V & A Waterfront",
+            "zip": "8002",
+            "city": "Cape-Town",
+            "website": "https://www.wethinkcode.co.za/",
+            "facebook": "https://www.facebook.com/wethinkcode/",
+            "twitter": "https://twitter.com/wethinkcode",
+            "active": false,
+            "public": false,
+            "email_extension": "wethinkcode.co.za",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 39,
+            "name": "Heilbronn",
+            "time_zone": "Europe/Berlin",
+            "language": {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2023-03-15T10:08:31.369Z"
+            },
+            "users_count": 1700,
+            "vogsphere_id": 28,
+            "country": "Germany",
+            "address": "Weipertstr 8 - 10",
+            "zip": "74076",
+            "city": "Heilbronn",
+            "website": "https://42heilbronn.de/",
+            "facebook": "https://www.facebook.com/42heilbronn",
+            "twitter": "https://twitter.com/42Heilbronn",
+            "active": true,
+            "public": true,
+            "email_extension": "42heilbronn.de",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 17,
+            "name": "Moscow",
+            "time_zone": "Europe/Moscow",
+            "language": {
+                "id": 6,
+                "name": "Russian",
+                "identifier": "ru",
+                "created_at": "2018-06-08T10:49:26.608Z",
+                "updated_at": "2018-06-08T10:49:26.708Z"
+            },
+            "users_count": 8802,
+            "vogsphere_id": 7,
+            "country": "Russian Federation",
+            "address": "Vyatskaya 27, business park \"Factoria\"",
+            "zip": "127015",
+            "city": "Moscow",
+            "website": "21-school.ru",
+            "facebook": "https://www.facebook.com/21coding",
+            "twitter": "https://twitter.com/21coding",
+            "active": true,
+            "public": true,
+            "email_extension": "21-school.ru",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 14,
+            "name": "Amsterdam",
+            "time_zone": "Europe/Amsterdam",
+            "language": {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2023-03-24T14:03:07.388Z"
+            },
+            "users_count": 1833,
+            "vogsphere_id": 8,
+            "country": "Netherlands",
+            "address": "Kattenburgerstraat 7",
+            "zip": "1018 JA",
+            "city": "Amsterdam",
+            "website": "http://www.codam.nl",
+            "facebook": "https://www.facebook.com/codamcodingcollege/",
+            "twitter": "https://twitter.com/CodamCollege",
+            "active": true,
+            "public": true,
+            "email_extension": "codam.nl",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 30,
+            "name": "Rome",
+            "time_zone": "Europe/Rome",
+            "language": {
+                "id": 16,
+                "name": "Italian",
+                "identifier": "it",
+                "created_at": "2020-03-12T13:30:39.859Z",
+                "updated_at": "2023-03-24T19:54:53.313Z"
+            },
+            "users_count": 1863,
+            "vogsphere_id": 24,
+            "country": "Italy",
+            "address": "Via Marsala 29H Termini train station",
+            "zip": "00185",
+            "city": "Roma",
+            "website": "https://www.42roma.it",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42roma.it",
+            "default_hidden_phone": true
+        },
+        {
+            "id": 43,
+            "name": "Abu Dhabi",
+            "time_zone": "Asia/Dubai",
+            "language": {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2023-03-15T10:08:31.369Z"
+            },
+            "users_count": 1540,
+            "vogsphere_id": 30,
+            "country": "United Arab Emirates",
+            "address": "Mina Zayed, Warehouse District ",
+            "zip": "00000",
+            "city": "Abu Dhabi",
+            "website": "https://42abudhabi.ae/",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42abudhabi.ae",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 41,
+            "name": "Nice",
+            "time_zone": "Europe/Paris",
+            "language": {
+                "id": 1,
+                "name": "Fran\u00e7ais",
+                "identifier": "fr",
+                "created_at": "2014-11-02T16:43:38.466Z",
+                "updated_at": "2023-03-30T16:39:32.318Z"
+            },
+            "users_count": 891,
+            "vogsphere_id": 23,
+            "country": "France",
+            "address": "61 Avenue Simone Veil",
+            "zip": "06200",
+            "city": "Nice",
+            "website": "https://www.42nice.fr/",
+            "facebook": "https://www.facebook.com/42nice",
+            "twitter": "https://twitter.com/42nicesud",
+            "active": true,
+            "public": true,
+            "email_extension": "42nice.fr",
+            "default_hidden_phone": true
+        },
+        {
+            "id": 42,
+            "name": "42Network",
+            "time_zone": "Europe/Paris",
+            "language": {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2023-03-31T17:23:15.629Z"
+            },
+            "users_count": 196,
+            "vogsphere_id": 43,
+            "country": "France",
+            "address": "96 boulevard Bessi\u00e8res",
+            "zip": "75017",
+            "city": "PARIS",
+            "website": "http://42network.org/",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": false,
+            "email_extension": "42network.org",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 23,
+            "name": "Kazan",
+            "time_zone": "Europe/Moscow",
+            "language": {
+                "id": 6,
+                "name": "Russian",
+                "identifier": "ru",
+                "created_at": "2018-06-08T10:49:26.608Z",
+                "updated_at": "2018-06-08T10:49:26.708Z"
+            },
+            "users_count": 3826,
+            "vogsphere_id": 18,
+            "country": "Russian Federation",
+            "address": "Spartakovskaya, 2b2",
+            "zip": "420000",
+            "city": "Kazan",
+            "website": "21-school.ru",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "21-school.ru",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 9,
+            "name": "Lyon",
+            "time_zone": "Europe/Paris",
+            "language": {
+                "id": 1,
+                "name": "Fran\u00e7ais",
+                "identifier": "fr",
+                "created_at": "2014-11-02T16:43:38.466Z",
+                "updated_at": "2023-03-20T10:01:37.728Z"
+            },
+            "users_count": 2580,
+            "vogsphere_id": 4,
+            "country": "France",
+            "address": "Campus R\u00e9gion du Num\u00e9rique \u2013 78 route de Paris",
+            "zip": "69260",
+            "city": "Charbonni\u00e8res-les-Bains",
+            "website": "https://www.42lyon.fr/",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42lyon.fr",
+            "default_hidden_phone": true
+        },
+        {
+            "id": 29,
+            "name": "Seoul",
+            "time_zone": "Asia/Seoul",
+            "language": {
+                "id": 14,
+                "name": "Korean",
+                "identifier": "ko",
+                "created_at": "2020-01-08T10:56:47.481Z",
+                "updated_at": "2023-03-30T04:29:11.572Z"
+            },
+            "users_count": 5549,
+            "vogsphere_id": 19,
+            "country": "Korea, Republic of",
+            "address": "Gaepo Digital Innovation Park, 416, Gaepo-ro, Gangnam-gu,",
+            "zip": "06324",
+            "city": "Seoul",
+            "website": "https://www.42seoul.kr",
+            "facebook": "https://www.facebook.com/inno.aca/  ",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42seoul.kr",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 38,
+            "name": "Lisboa",
+            "time_zone": "Europe/Lisbon",
+            "language": {
+                "id": 9,
+                "name": "Portuguese",
+                "identifier": "pt",
+                "created_at": "2019-01-29T15:17:48.227Z",
+                "updated_at": "2023-03-27T23:22:54.587Z"
+            },
+            "users_count": 1993,
+            "vogsphere_id": 25,
+            "country": "Portugal",
+            "address": "Rua Neves Ferreira, 13B",
+            "zip": "1170-273",
+            "city": "Lisboa",
+            "website": "http://www.42lisboa.com",
+            "facebook": "https://www.facebook.com/42-Lisboa-100970235020298/",
+            "twitter": "https://twitter.com/42lisboa",
+            "active": true,
+            "public": true,
+            "email_extension": "42lisboa.com",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 32,
+            "name": "Yerevan",
+            "time_zone": "Asia/Yerevan",
+            "language": {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2023-03-28T14:53:10.858Z"
+            },
+            "users_count": 1650,
+            "vogsphere_id": 22,
+            "country": "Armenia",
+            "address": "16 Halabyan St",
+            "zip": "0038",
+            "city": "Yerevan",
+            "website": "https://42yerevan.am/",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42yerevan.am",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 20,
+            "name": "S\u00e3o-Paulo",
+            "time_zone": "America/Sao_Paulo",
+            "language": {
+                "id": 17,
+                "name": "Brazilian Portuguese",
+                "identifier": "pt_br",
+                "created_at": "2020-12-10T14:15:00.994Z",
+                "updated_at": "2023-03-30T04:28:59.750Z"
+            },
+            "users_count": 2876,
+            "vogsphere_id": 14,
+            "country": "Brazil",
+            "address": "Rua Aspicuelta, 422, cj. 71A",
+            "zip": "05433-010",
+            "city": "S\u00e3o Paulo",
+            "website": "https://42sp.org.br",
+            "facebook": "",
+            "twitter": "",
+            "active": true,
+            "public": true,
+            "email_extension": "42sp.org.br",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 12,
+            "name": "19",
+            "time_zone": "Europe/Brussels",
+            "language": {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2023-03-22T17:04:07.237Z"
+            },
+            "users_count": 2043,
+            "vogsphere_id": 5,
+            "country": "Belgium",
+            "address": "Cantersteen 10/12",
+            "zip": "1000",
+            "city": "Brussels",
+            "website": "https://www.campus19.be",
+            "facebook": "https://www.facebook.com/19network42/",
+            "twitter": "https://twitter.com/19network42/",
+            "active": true,
+            "public": true,
+            "email_extension": "s19.be",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 21,
+            "name": "Benguerir",
+            "time_zone": "Africa/Casablanca",
+            "language": {
+                "id": 1,
+                "name": "Fran\u00e7ais",
+                "identifier": "fr",
+                "created_at": "2014-11-02T16:43:38.466Z",
+                "updated_at": "2023-03-26T10:54:16.581Z"
+            },
+            "users_count": 2020,
+            "vogsphere_id": 11,
+            "country": "Morocco",
+            "address": "Lot 660, Hay Moulay Rachid, Ben Guerir 43150",
+            "zip": "43150",
+            "city": "Benguerir",
+            "website": "https://1337.ma",
+            "facebook": "https://www.facebook.com/1337FutureIsLoading",
+            "twitter": "https://twitter.com/1337FIL",
+            "active": true,
+            "public": true,
+            "email_extension": "1337.ma",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 16,
+            "name": "Khouribga",
+            "time_zone": "Africa/Casablanca",
+            "language": {
+                "id": 1,
+                "name": "Fran\u00e7ais",
+                "identifier": "fr",
+                "created_at": "2014-11-02T16:43:38.466Z",
+                "updated_at": "2023-03-26T10:54:16.581Z"
+            },
+            "users_count": 2877,
+            "vogsphere_id": 6,
+            "country": "Morocco",
+            "address": "Mail Central",
+            "zip": "25000",
+            "city": "Khouribga",
+            "website": "https://1337.ma",
+            "facebook": "",
+            "twitter": "https://twitter.com/1337FIL",
+            "active": true,
+            "public": true,
+            "email_extension": "1337.ma",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 7,
+            "name": "Fremont",
+            "time_zone": "America/Tijuana",
+            "language": {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2023-03-04T08:01:23.674Z"
+            },
+            "users_count": 18213,
+            "vogsphere_id": 2,
+            "country": "United States",
+            "address": "6 600 Dumbarton Circle",
+            "zip": "94555",
+            "city": "Fremont",
+            "website": "https://www.42.us.org/",
+            "facebook": "https://www.facebook.com/42SiliconValley",
+            "twitter": "https://twitter.com/42SiliconValley",
+            "active": false,
+            "public": false,
+            "email_extension": "42.us.org",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 26,
+            "name": "Tokyo",
+            "time_zone": "Asia/Tokyo",
+            "language": {
+                "id": 13,
+                "name": "Japanese",
+                "identifier": "ja",
+                "created_at": "2019-11-15T13:34:10.581Z",
+                "updated_at": "2023-03-30T04:29:15.954Z"
+            },
+            "users_count": 4850,
+            "vogsphere_id": 17,
+            "country": "Japan",
+            "address": "Sumitomo Fudosan Roppongi Grand Tower 3-2-1 Roppongi Minato-ku reception: 24F",
+            "zip": "106-6224",
+            "city": "Tokyo",
+            "website": "https://42tokyo.jp",
+            "facebook": "https://www.facebook.com/42tokyo/",
+            "twitter": "https://twitter.com/42_tokyo",
+            "active": true,
+            "public": true,
+            "email_extension": "42tokyo.jp",
+            "default_hidden_phone": true
+        },
+        {
+            "id": 22,
+            "name": "Madrid",
+            "time_zone": "Europe/Madrid",
+            "language": {
+                "id": 11,
+                "name": "Spanish",
+                "identifier": "es",
+                "created_at": "2019-08-09T15:14:32.544Z",
+                "updated_at": "2023-03-30T14:08:24.462Z"
+            },
+            "users_count": 4647,
+            "vogsphere_id": 15,
+            "country": "Spain",
+            "address": "Distrito Telef\u00f3nica - Edificio Norte 3, Ronda de la Comunicaci\u00f3n, s/n",
+            "zip": "28050",
+            "city": "Madrid",
+            "website": "http://www.42madrid.com/",
+            "facebook": "https://facebook.com/fundaciontef",
+            "twitter": "https://twitter.com/42MadridFTef",
+            "active": true,
+            "public": true,
+            "email_extension": "42madrid.com",
+            "default_hidden_phone": true
+        },
+        {
+            "id": 28,
+            "name": "Rio de Janeiro",
+            "time_zone": "America/Sao_Paulo",
+            "language": {
+                "id": 9,
+                "name": "Portuguese",
+                "identifier": "pt",
+                "created_at": "2019-01-29T15:17:48.227Z",
+                "updated_at": "2023-03-14T17:02:04.687Z"
+            },
+            "users_count": 676,
+            "vogsphere_id": 40,
+            "country": "Brazil",
+            "address": "Via Binario do Porto, 299 / 4th floor",
+            "zip": "20000-000",
+            "city": "Rio de Janeiro",
+            "website": "https://42.rio",
+            "facebook": "",
+            "twitter": "@Escola42Rio",
+            "active": true,
+            "public": true,
+            "email_extension": "42.rio",
+            "default_hidden_phone": false
+        },
+        {
+            "id": 1,
+            "name": "Paris",
+            "time_zone": "Europe/Paris",
+            "language": {
+                "id": 1,
+                "name": "Fran\u00e7ais",
+                "identifier": "fr",
+                "created_at": "2014-11-02T16:43:38.466Z",
+                "updated_at": "2023-03-30T16:39:32.318Z"
+            },
+            "users_count": 25644,
+            "vogsphere_id": 1,
+            "country": "France",
+            "address": "96, boulevard Bessi\u00e8res",
+            "zip": "75017",
+            "city": "Paris",
+            "website": "http://www.42.fr/",
+            "facebook": "https://facebook.com/42born2code",
+            "twitter": "https://twitter.com/42born2code",
+            "active": true,
+            "public": true,
+            "email_extension": "42.fr",
+            "default_hidden_phone": false
+        }
+    ],
+    "videos": [],
+    "project_sessions": [
+        {
+            "id": 6652,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 25,
+            "cursus_id": 21,
+            "created_at": "2021-10-21T14:32:34.263Z",
+            "updated_at": "2023-03-24T13:38:07.246Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 22244,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 18729,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 15782,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13573,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13276,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 11766,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10436,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9020,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9087,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 920,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 5711,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 9,
+            "cursus_id": 21,
+            "created_at": "2021-04-13T16:14:50.655Z",
+            "updated_at": "2023-03-22T16:32:59.380Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 22204,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 17872,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 17539,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 14600,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 14189,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13898,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13465,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12613,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12303,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10877,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10833,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10741,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10534,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9943,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9649,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9562,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8951,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9082,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8731,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7869,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7771,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7446,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7142,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 5904,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 5632,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 766,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 9172,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 38,
+            "cursus_id": 21,
+            "created_at": "2022-12-19T15:24:18.929Z",
+            "updated_at": "2023-03-01T15:40:43.262Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 21100,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 19520,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 19519,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 1245,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 7417,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 50,
+            "cursus_id": 21,
+            "created_at": "2022-03-14T05:51:49.258Z",
+            "updated_at": "2023-02-22T09:17:18.757Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 21063,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 14549,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12709,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 1057,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 7908,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 49,
+            "cursus_id": 21,
+            "created_at": "2022-06-20T14:45:53.378Z",
+            "updated_at": "2023-02-22T09:15:51.285Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 21062,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 21061,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 14550,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 1124,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 6188,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 20,
+            "cursus_id": 21,
+            "created_at": "2021-07-12T21:31:28.324Z",
+            "updated_at": "2023-02-21T18:13:27.393Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 21029,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 19168,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 19149,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 16995,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 18496,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 14672,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 14284,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13903,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13638,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12857,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10909,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12524,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10746,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10826,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10498,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10066,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9739,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9278,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8847,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8481,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7690,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7299,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 842,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 6957,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 29,
+            "cursus_id": 21,
+            "created_at": "2021-12-08T02:21:57.435Z",
+            "updated_at": "2023-03-26T10:32:20.983Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 19194,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 20926,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 13212,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10068,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 979,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 9143,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 14,
+            "cursus_id": 21,
+            "created_at": "2022-12-13T13:42:13.838Z",
+            "updated_at": "2023-02-06T15:30:40.015Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 20662,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 19450,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 1242,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 9271,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 40,
+            "cursus_id": 53,
+            "created_at": "2023-01-30T11:00:41.463Z",
+            "updated_at": "2023-01-30T11:00:55.221Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 20194,
+                    "correction_number": 3,
+                    "is_primary": true
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 1256,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 6600,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 1,
+            "cursus_id": 53,
+            "created_at": "2021-10-20T07:22:24.032Z",
+            "updated_at": "2023-01-30T10:35:20.358Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 20185,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 19086,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 17822,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 17144,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 14856,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13678,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12776,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12466,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10991,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10546,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10787,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9942,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9700,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9516,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9441,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9076,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8958,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 915,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 4462,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 26,
+            "cursus_id": 21,
+            "created_at": "2020-05-29T02:24:40.975Z",
+            "updated_at": "2023-01-19T01:41:28.609Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 19872,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 19228,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 18145,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 16224,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10860,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13292,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10715,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10676,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10026,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7861,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7715,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7155,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 6168,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 5536,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 5398,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 5007,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 4639,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 4437,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 4314,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2774,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 407,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 3996,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 22,
+            "cursus_id": 21,
+            "created_at": "2019-11-12T07:44:36.930Z",
+            "updated_at": "2023-01-17T16:28:16.306Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 19837,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 19138,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 17778,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 15165,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 14280,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13895,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13427,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10605,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9958,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9677,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9561,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9081,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8952,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8726,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7908,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7699,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7570,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7269,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7179,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7135,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7019,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 5240,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2994,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2790,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2776,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2609,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2400,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2121,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1795,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1723,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1652,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1569,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 343,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 4471,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 1,
+            "cursus_id": 21,
+            "created_at": "2020-06-30T13:41:12.903Z",
+            "updated_at": "2023-01-17T13:56:48.231Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 19834,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 19052,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 17823,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 17143,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 15603,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13677,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12775,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12467,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10786,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10990,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9941,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10574,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9701,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9514,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9440,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9075,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8960,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8785,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7938,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7147,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7134,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 4560,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 5878,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 3563,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2928,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2843,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 410,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 6296,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 36,
+            "cursus_id": 21,
+            "created_at": "2021-09-02T07:56:53.443Z",
+            "updated_at": "2023-01-16T23:42:59.222Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 19830,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 18190,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 19051,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 17460,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 14676,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13566,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12909,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 11096,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12539,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10008,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9090,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9089,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8083,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 856,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 5679,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 41,
+            "cursus_id": 21,
+            "created_at": "2021-04-01T09:36:23.495Z",
+            "updated_at": "2023-01-16T11:02:48.411Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 19821,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 19126,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 17831,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 17054,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 15046,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13471,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 14417,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12978,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12424,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10937,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10813,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10558,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10006,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9088,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9723,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8904,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8717,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7818,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7900,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7571,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7365,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7136,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 6026,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 5519,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 751,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 6325,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 46,
+            "cursus_id": 21,
+            "created_at": "2021-09-08T13:12:54.346Z",
+            "updated_at": "2023-03-23T13:56:32.518Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 19812,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 19045,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 19046,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 17657,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 17368,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 15081,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12810,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10136,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8176,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 859,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 4510,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 23,
+            "cursus_id": 18,
+            "created_at": "2020-07-07T08:35:14.879Z",
+            "updated_at": "2023-01-16T09:25:31.711Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 19776,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 19024,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 18341,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8166,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7160,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 5625,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 5151,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 4170,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2886,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 431,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 5250,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 32,
+            "cursus_id": 21,
+            "created_at": "2020-12-29T13:43:34.468Z",
+            "updated_at": "2023-01-16T13:32:35.658Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 19714,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 19564,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 14433,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12215,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10888,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10098,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9319,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8948,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7764,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 6329,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 4610,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 4411,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 579,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 3802,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 12,
+            "cursus_id": 21,
+            "created_at": "2019-10-07T10:16:16.874Z",
+            "updated_at": "2023-02-14T11:49:30.186Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 20786,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 19337,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 14570,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13266,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12056,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10053,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9237,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8095,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8094,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7285,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7284,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7182,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 5914,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 5493,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 5085,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1427,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 338,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "6a2341d07e571a9f9af1e3c0f319dddbd848b7ca"
+        },
+        {
+            "id": 9109,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 62,
+            "cursus_id": 21,
+            "created_at": "2022-12-01T08:47:10.369Z",
+            "updated_at": "2022-12-01T08:47:22.943Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 19224,
+                    "correction_number": 3,
+                    "is_primary": true
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 1240,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "6a2341d07e571a9f9af1e3c0f319dddbd848b7ca"
+        },
+        {
+            "id": 8228,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 58,
+            "cursus_id": 21,
+            "created_at": "2022-07-21T13:30:04.132Z",
+            "updated_at": "2023-03-04T13:20:36.028Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 19015,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 21103,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 19014,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 19013,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 18815,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 18814,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 18813,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 17616,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 17435,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 15661,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 1161,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 7654,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 28,
+            "cursus_id": 21,
+            "created_at": "2022-04-02T03:32:17.493Z",
+            "updated_at": "2022-10-31T21:52:00.457Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 18468,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 16249,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13750,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13411,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 1110,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "88a899aec7b1ca8907b356df7d17489cddbcce7b"
+        },
+        {
+            "id": 6849,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 21,
+            "cursus_id": 21,
+            "created_at": "2021-11-12T10:35:17.834Z",
+            "updated_at": "2023-02-03T11:17:26.091Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 20552,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 20007,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 18153,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 15233,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13900,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 11043,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12690,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10629,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10309,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9511,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 950,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 8352,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 13,
+            "cursus_id": 21,
+            "created_at": "2022-09-15T15:05:40.974Z",
+            "updated_at": "2023-01-24T09:46:10.592Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 19035,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 20029,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 18087,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 17902,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 17409,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 16785,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 1183,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 3300,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": null,
+            "cursus_id": null,
+            "created_at": "2019-07-29T08:49:02.256Z",
+            "updated_at": "2023-01-20T07:53:13.863Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 19907,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 19007,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 18176,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 18801,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 16988,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 14111,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 14857,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 14000,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12637,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12155,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 11023,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10769,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10493,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10241,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9702,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9515,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9210,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 9067,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8950,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8714,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7918,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7244,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7146,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7133,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 5877,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 5482,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 4559,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 3453,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2932,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2845,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2788,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2764,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2760,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2600,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2295,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2231,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2060,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2050,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1777,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1749,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1696,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1655,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1591,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1582,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1556,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1495,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1456,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1452,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1450,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1443,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1439,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1434,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1438,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1433,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1432,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1431,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1430,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1429,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1404,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 1279,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 327,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 7074,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 37,
+            "cursus_id": 21,
+            "created_at": "2022-01-17T10:22:28.497Z",
+            "updated_at": "2023-01-16T09:50:01.647Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 19799,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 17050,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 16813,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 15475,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13513,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10719,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 1004,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 6249,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 30,
+            "cursus_id": 21,
+            "created_at": "2021-08-13T10:36:32.552Z",
+            "updated_at": "2022-05-18T14:12:57.443Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 13916,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 11455,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10634,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 8009,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7717,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 844,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "06ea45b0533e220185574201c4a48c22d4f3b004"
+        },
+        {
+            "id": 5943,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 40,
+            "cursus_id": 21,
+            "created_at": "2021-05-18T16:25:22.919Z",
+            "updated_at": "2023-01-17T16:52:42.740Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 19844,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 19626,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13822,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 13071,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 12209,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 10036,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 11571,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7847,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7468,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 7275,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 6172,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 815,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "01e8044e6747c53c92963b571f1c99c2fa0a3e2e"
+        },
+        {
+            "id": 4547,
+            "solo": true,
+            "begin_at": null,
+            "end_at": null,
+            "estimate_time": "70 hours",
+            "difficulty": 462,
+            "objectives": [
+                "Unix logic"
+            ],
+            "description": "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.",
+            "duration_days": null,
+            "terminating_after": null,
+            "project_id": 1314,
+            "campus_id": 17,
+            "cursus_id": 18,
+            "created_at": "2020-07-09T10:18:48.774Z",
+            "updated_at": "2021-09-20T12:20:53.654Z",
+            "max_people": null,
+            "is_subscriptable": true,
+            "scales": [
+                {
+                    "id": 8155,
+                    "correction_number": 3,
+                    "is_primary": true
+                },
+                {
+                    "id": 7158,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 5141,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 5615,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 4171,
+                    "correction_number": 3,
+                    "is_primary": false
+                },
+                {
+                    "id": 2921,
+                    "correction_number": 3,
+                    "is_primary": false
+                }
+            ],
+            "uploads": [
+                {
+                    "id": 454,
+                    "name": "Moulinette"
+                }
+            ],
+            "team_behaviour": "user",
+            "commit": "87a49c71702f51eabc6f24ef24dcac050a25231c"
+        }
+    ]
+}
