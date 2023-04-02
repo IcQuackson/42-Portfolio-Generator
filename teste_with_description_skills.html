@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ student_name }}'s Portfolio</title>
+  <style>
+    /* Style the headings */
+    h1, h2 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      margin-bottom: 0;
+    }
+
+    /* Style the sections */
+    section {
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+    }
+
+    /* Style the table */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 0.5rem;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    /* Style the expertise bars */
+    .expertise {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .expertise-name {
+      width: 30%;
+      font-weight: bold;
+      margin-right: 1rem;
+    }
+
+    .expertise-bar {
+      height: 1rem;
+      background-color: #f2f2f2;
+      border-radius: 1rem;
+      overflow: hidden;
+    }
+
+    .expertise-progress {
+      height: 100%;
+      background-color: #007bff;
+    }
+
+	.skill-stars {
+		display: inline-block;
+	}
+
+	.star {
+  		font-size: 1.5rem;
+ 		 color: gold;
+	}
+  </style>
+</head>
+<body>
+  <h1>{{ student_name }}'s Portfolio</h1>
+  <section>
+    <h2>About</h2>
+    <p>Email: {{ email }}</p>
+    <p>Phone: {{ phone }}</p>
+    <img src="{{ small_image_url }}" alt="Profile picture">
+  </section>
+  <section>
+    <h2>Projects</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Project Name</th>
+          <th>Final Mark</th>
+          <th>Description</th>
+          <th>Skills</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for project in completed_projects %}
+          <tr>
+            <td>{{ project.name }}</td>
+            <td>{{ project.final_mark }}</td>
+            <td>{{ project.description }}</td>
+            <td>{{ project.skills }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h2>Skills</h2>
+    {% for skill in skills %}
+		<div>
+			<span>{{ skill['name'] }}</span>
+			<span>Level: {{ skill['new_value'] }}</span>
+			<div class="skill-stars">
+			{% for i in range(skill['new_value']) %}
+				<span class="star">&#9733;</span>
+			{% endfor %}
+			</div>
+		</div>
+	{% endfor %}
+  </section>
+</body>
+</html>
