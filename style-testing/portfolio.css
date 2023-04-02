@@ -1,0 +1,300 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
+
+html {font-family: 'Montserrat', sans-serif;}
+
+:root {
+    color: white;
+}
+
+* {
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 4.5rem;
+    letter-spacing: 3px; 
+    color: white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    padding: 5px 20px;
+}
+
+h2 {
+    font-size: 3rem;
+    letter-spacing: 3px; 
+    color: white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    padding: 5px 10px;
+}
+
+h1 + p {
+    color: #979797;
+    border-radius: 50px;
+    background-color: #3b3f50;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: left;
+}
+
+.main_grid {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "identification identification"
+        "contact contact"
+        "projects skills"
+        "footer footer";
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: flex-start;
+    border-inline: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.pfp {
+    grid-area: identification;
+    padding: 60px;
+    width: fit-content;
+}
+
+.identification {
+    grid-area: identification;
+    border: 1px solid white;
+    justify-content: flex-start;
+    padding: 60px;
+}
+
+.name {
+    grid-area: identification;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+    flex-direction: column;
+}
+
+.contact {
+    grid-area: contact;
+    border-inline: 1px solid white;
+    justify-content: flex-start;
+}
+
+.cross {
+    height: 100%;
+    border-right: 1px solid white;
+}
+
+.cross img {
+    width: 30px;
+    object-fit: contain;
+    margin-inline: 20px;
+}
+
+.projects {
+    grid-area: projects;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid white;
+    padding: 68px;
+    padding-top: 0;
+}
+
+.skills {
+    grid-area: skills;
+    border: 1px solid white;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 60px;
+    padding-top: 0px;
+}
+
+
+footer {
+    grid-area: footer;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #3b3f50;
+    color: white;
+    font-size: 1.5rem;
+    padding-inline: 20px;
+    text-align: center;
+}
+
+h1 span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, #833ab4 0%, #fd1d1d 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.466);
+}
+
+.call_action {
+    position: relative;
+    bottom: 60px;
+}
+
+input::-webkit-search-cancel-button {
+    display: none;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+#pfp {
+    border: 1px solid white;
+    object-fit: cover;
+}
+
+.contact_card {
+    background-color: #3b3f50;
+    width: fit-content;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #cacaca;
+}
+
+.project_card {
+    background: linear-gradient(90deg, #9b74b4 0%, #833ab4 100%);
+    width: fit-content;
+    margin: 10px;
+    padding: 15px 40px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
+    font-size: 1.5rem;
+    color: #cacaca;
+    margin-right: 0px;
+    min-height: 60px;
+}
+
+.project_card p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.prj_description p, .skill_card p {
+    margin: 0;
+}
+
+.prj_description {
+    background-color: #3b3f50;
+    width: fit-content;
+    margin: 10px 0 10px 70px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.applicative {
+    justify-content: flex-start;
+    margin-left: 140px;
+    flex-wrap: wrap;
+}
+
+.applicative_card {
+    background-color: #3b3f50;
+    width: fit-content;
+    margin: 5px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #878d9c;
+    word-break: keep-all;
+}
+
+.bonus {
+    height: 20px;
+    margin-left: 10px;
+}
+
+.bonus_card {
+    background: linear-gradient(90deg, #d68b00 0%, #ffc400 100%);
+    width: fit-content;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    color: #3b3f50;
+    font-weight: bold;
+    min-height: 40px;
+    padding: 10px 20px;
+}
+
+.skill_card {
+    margin: 30px 15px;
+    font-size: 1.2rem;;
+    justify-content: space-between
+}
+
+.skill_point {
+    min-width: 10px;
+    min-height: 10px;
+    margin: 5px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #d68b00 0%, #ffc400 100%);
+}
+
+.skill_list {
+    margin-left: 50px;
+    border-left: 1px solid white;
+}
+
+
+.skill_points {
+    background-color: #1a1c24;
+    border-radius: 50px;
+    padding: 5px;
+    margin-left: 10px;
+}
