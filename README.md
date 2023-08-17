@@ -10,6 +10,7 @@
 <img alt="42" src="https://i.imgur.com/FBTPTt0.png" width="300px"/>
 </div>
 
+![image](https://github.com/IcQuackson/42-Portfolio-Generator/assets/61185097/96715925-24e6-4b3c-836e-6774e9585e18)
 
 ## 🗣️ About
 42 Portfolio Generator is a web-page designed to fetch project and cursus information from the 42 API, allowing users to easily generate and visualize their project portfolios. With just a valid username, you can access a wealth of information about your progress at 42, all in one place.
