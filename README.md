@@ -15,6 +15,9 @@
 ## 🗣️ About
 42 Portfolio Generator is a web-page designed to fetch project and cursus information from the 42 API, allowing users to easily generate and visualize their project portfolios. With just a valid username, you can access a wealth of information about your progress at 42, all in one place.
 
+## Technology Stack
+Python Flask, Jinja2, HTML, CSS
+
 ## 🛠️ Download
 To download and use the 42 Portfolio Generator, simply clone this repository to your local machine:
 
